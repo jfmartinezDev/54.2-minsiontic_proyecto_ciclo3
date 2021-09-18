@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>mensajes</title>
+</head>
+<body>
+    <div class="div-nav">
+        <nav class="nav-chat"></nav>
+    </div>
+    <div class="container">
+        <h5>Mensajeria privada</h5>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <p>Enviar nuevo mensaje</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="enviar">Para:</label>
+                        <select name="enviar" id="enviar" class="form-control" required>
+                            <option value="">Seleccionar un destinatario</option>
+                                <option value="">Usuario</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button class="btn-enviar">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
